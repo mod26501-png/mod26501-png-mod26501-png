@@ -1,6 +1,10 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.set_page_config(
+    page_title="🌌 Denomic Antigravity Agent",
+    page_icon="🌌",
+    layout="wide",
 )
+
+st.title("🌌 Denomic Antigravity Agent")
+st.write("Welcome to the Denomic Antigravity Agent interface.")
